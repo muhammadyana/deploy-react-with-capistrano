@@ -654,3 +654,108 @@
   INFO [6d804a2d] Running /usr/bin/env echo "Branch main (at 6fe9d3b2fd5142ba227b5af334160dd5522f08c0) deployed as release 20220721054208 by yana" >> /home/ubuntu/apps/react-capistrano/revisions.log as ubuntu@108.136.53.121
  DEBUG [6d804a2d] Command: cd /home/ubuntu/apps/react-capistrano/releases && ( export NODE_VERSION="v14.20.0" ; /usr/bin/env echo "Branch main (at 6fe9d3b2fd5142ba227b5af334160dd5522f08c0) deployed as release 20220721054208 by yana" >> /home/ubuntu/apps/react-capistrano/revisions.log )
   INFO [6d804a2d] Finished in 0.030 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-07-21 13:02:00 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e6676d34] Running /usr/bin/env mkdir -p /tmp/react-capistrano/ as ubuntu@108.136.53.121
+ DEBUG [e6676d34] Command: /usr/bin/env mkdir -p /tmp/react-capistrano/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-07-21 13:02:54 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2e75d813] Running /usr/bin/env mkdir -p /tmp/react-capistrano/ as ubuntu@108.136.53.121
+ DEBUG [2e75d813] Command: /usr/bin/env mkdir -p /tmp/react-capistrano/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-07-21 13:03:15 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ce5c1404] Running /usr/bin/env mkdir -p /tmp/react-capistrano/ as ubuntu@108.136.53.121
+ DEBUG [ce5c1404] Command: /usr/bin/env mkdir -p /tmp/react-capistrano/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-07-21 13:03:30 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [dbb2af51] Running /usr/bin/env mkdir -p /tmp/react-capistrano/ as ubuntu@108.136.53.121
+ DEBUG [dbb2af51] Command: /usr/bin/env mkdir -p /tmp/react-capistrano/
+  INFO [dbb2af51] Finished in 0.964 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/react-capistrano/nvm-exec.sh 0.0%
+  INFO Uploading /tmp/react-capistrano/nvm-exec.sh 100.0%
+  INFO [d2eec8af] Running /usr/bin/env chmod +x /tmp/react-capistrano/nvm-exec.sh as ubuntu@108.136.53.121
+ DEBUG [d2eec8af] Command: /usr/bin/env chmod +x /tmp/react-capistrano/nvm-exec.sh
+  INFO [d2eec8af] Finished in 0.031 seconds with exit status 0 (successful).
+ DEBUG [85747873] Running [ -d $HOME/.nvm/v14.20.0 ] || [ -d $HOME/.nvm/versions/node/v14.20.0 ] as ubuntu@108.136.53.121
+ DEBUG [85747873] Command: [ -d $HOME/.nvm/v14.20.0 ] || [ -d $HOME/.nvm/versions/node/v14.20.0 ]
+ DEBUG [85747873] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [ce1a6a3b] Running /usr/bin/env mkdir -p /tmp as ubuntu@108.136.53.121
+ DEBUG [ce1a6a3b] Command: ( export NODE_VERSION="v14.20.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [ce1a6a3b] Finished in 0.029 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-db85ee60ba94e5750d91.sh 0.0%
+  INFO Uploading /tmp/git-ssh-db85ee60ba94e5750d91.sh 100.0%
+  INFO [208f10c2] Running /usr/bin/env chmod 700 /tmp/git-ssh-db85ee60ba94e5750d91.sh as ubuntu@108.136.53.121
+ DEBUG [208f10c2] Command: ( export NODE_VERSION="v14.20.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-db85ee60ba94e5750d91.sh )
+  INFO [208f10c2] Finished in 0.029 seconds with exit status 0 (successful).
+  INFO [19c58fef] Running /usr/bin/env git ls-remote git@github.com:muhammadyana/deploy-react-with-capistrano.git HEAD as ubuntu@108.136.53.121
+ DEBUG [19c58fef] Command: ( export NODE_VERSION="v14.20.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-db85ee60ba94e5750d91.sh" ; /usr/bin/env git ls-remote git@github.com:muhammadyana/deploy-react-with-capistrano.git HEAD )
+ DEBUG [19c58fef] 	fd76e4e897cfeb391eefb1a236e82fc74ee780b3	HEAD
+  INFO [19c58fef] Finished in 2.799 seconds with exit status 0 (successful).
+  INFO [faa12d60] Running /usr/bin/env mkdir -p /home/ubuntu/apps/react-capistrano/shared /home/ubuntu/apps/react-capistrano/releases as ubuntu@108.136.53.121
+ DEBUG [faa12d60] Command: ( export NODE_VERSION="v14.20.0" ; /usr/bin/env mkdir -p /home/ubuntu/apps/react-capistrano/shared /home/ubuntu/apps/react-capistrano/releases )
+  INFO [faa12d60] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [b8fc2071] Running [ -f /home/ubuntu/apps/react-capistrano/current/REVISION ] as ubuntu@108.136.53.121
+ DEBUG [b8fc2071] Command: [ -f /home/ubuntu/apps/react-capistrano/current/REVISION ]
+ DEBUG [b8fc2071] Finished in 0.245 seconds with exit status 0 (successful).
+ DEBUG [a6b9bdb2] Running /usr/bin/env cat /home/ubuntu/apps/react-capistrano/current/REVISION 2>/dev/null as ubuntu@108.136.53.121
+ DEBUG [a6b9bdb2] Command: ( export NODE_VERSION="v14.20.0" ; /usr/bin/env cat /home/ubuntu/apps/react-capistrano/current/REVISION 2>/dev/null )
+ DEBUG [a6b9bdb2] 	6fe9d3b2fd5142ba227b5af334160dd5522f08c0
+ DEBUG [a6b9bdb2] Finished in 0.030 seconds with exit status 0 (successful).
+ DEBUG [cd40bd96] Running [ -f /home/ubuntu/apps/react-capistrano/repo/HEAD ] as ubuntu@108.136.53.121
+ DEBUG [cd40bd96] Command: [ -f /home/ubuntu/apps/react-capistrano/repo/HEAD ]
+ DEBUG [cd40bd96] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/apps/react-capistrano/repo
+ DEBUG [51a27445] Running if test ! -d /home/ubuntu/apps/react-capistrano/repo; then echo "Directory does not exist '/home/ubuntu/apps/react-capistrano/repo'" 1>&2; false; fi as ubuntu@108.136.53.121
+ DEBUG [51a27445] Command: if test ! -d /home/ubuntu/apps/react-capistrano/repo; then echo "Directory does not exist '/home/ubuntu/apps/react-capistrano/repo'" 1>&2; false; fi
+ DEBUG [51a27445] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [88cef1ed] Running /usr/bin/env git remote set-url origin git@github.com:muhammadyana/deploy-react-with-capistrano.git as ubuntu@108.136.53.121
+ DEBUG [88cef1ed] Command: cd /home/ubuntu/apps/react-capistrano/repo && ( export NODE_VERSION="v14.20.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-db85ee60ba94e5750d91.sh" ; /usr/bin/env git remote set-url origin git@github.com:muhammadyana/deploy-react-with-capistrano.git )
+  INFO [88cef1ed] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [fd1e2e87] Running /usr/bin/env git remote update --prune as ubuntu@108.136.53.121
+ DEBUG [fd1e2e87] Command: cd /home/ubuntu/apps/react-capistrano/repo && ( export NODE_VERSION="v14.20.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-db85ee60ba94e5750d91.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [fd1e2e87] 	Fetching origin
+ DEBUG [fd1e2e87] 	From github.com:muhammadyana/deploy-react-with-capistrano
+ DEBUG [fd1e2e87] 	   6fe9d3b..fd76e4e  main       -> main
+  INFO [fd1e2e87] Finished in 2.933 seconds with exit status 0 (successful).
+ DEBUG [e70bf729] Running if test ! -d /home/ubuntu/apps/react-capistrano/repo; then echo "Directory does not exist '/home/ubuntu/apps/react-capistrano/repo'" 1>&2; false; fi as ubuntu@108.136.53.121
+ DEBUG [e70bf729] Command: if test ! -d /home/ubuntu/apps/react-capistrano/repo; then echo "Directory does not exist '/home/ubuntu/apps/react-capistrano/repo'" 1>&2; false; fi
+ DEBUG [e70bf729] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [138c8dab] Running /usr/bin/env mkdir -p /home/ubuntu/apps/react-capistrano/releases/20220721060334 as ubuntu@108.136.53.121
+ DEBUG [138c8dab] Command: cd /home/ubuntu/apps/react-capistrano/repo && ( export NODE_VERSION="v14.20.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-db85ee60ba94e5750d91.sh" ; /usr/bin/env mkdir -p /home/ubuntu/apps/react-capistrano/releases/20220721060334 )
+  INFO [138c8dab] Finished in 0.030 seconds with exit status 0 (successful).
+  INFO [9b7ac57f] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/react-capistrano/releases/20220721060334 as ubuntu@108.136.53.121
+ DEBUG [9b7ac57f] Command: cd /home/ubuntu/apps/react-capistrano/repo && ( export NODE_VERSION="v14.20.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-db85ee60ba94e5750d91.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/react-capistrano/releases/20220721060334 )
+  INFO [9b7ac57f] Finished in 0.130 seconds with exit status 0 (successful).
+ DEBUG [71738260] Running if test ! -d /home/ubuntu/apps/react-capistrano/repo; then echo "Directory does not exist '/home/ubuntu/apps/react-capistrano/repo'" 1>&2; false; fi as ubuntu@108.136.53.121
+ DEBUG [71738260] Command: if test ! -d /home/ubuntu/apps/react-capistrano/repo; then echo "Directory does not exist '/home/ubuntu/apps/react-capistrano/repo'" 1>&2; false; fi
+ DEBUG [71738260] Finished in 0.029 seconds with exit status 0 (successful).
+ DEBUG [adc5cdc4] Running /usr/bin/env git rev-list --max-count=1 main as ubuntu@108.136.53.121
+ DEBUG [adc5cdc4] Command: cd /home/ubuntu/apps/react-capistrano/repo && ( export NODE_VERSION="v14.20.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-db85ee60ba94e5750d91.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [adc5cdc4] 	fd76e4e897cfeb391eefb1a236e82fc74ee780b3
+ DEBUG [adc5cdc4] Finished in 0.149 seconds with exit status 0 (successful).
+ DEBUG [e2d2827b] Running if test ! -d /home/ubuntu/apps/react-capistrano/releases/20220721060334; then echo "Directory does not exist '/home/ubuntu/apps/react-capistrano/releases/20220721060334'" 1>&2; false; fi as ubuntu@108.136.53.121
+ DEBUG [e2d2827b] Command: if test ! -d /home/ubuntu/apps/react-capistrano/releases/20220721060334; then echo "Directory does not exist '/home/ubuntu/apps/react-capistrano/releases/20220721060334'" 1>&2; false; fi
+ DEBUG [e2d2827b] Finished in 0.029 seconds with exit status 0 (successful).
+  INFO [48a2e9e6] Running /usr/bin/env echo "fd76e4e897cfeb391eefb1a236e82fc74ee780b3" > REVISION as ubuntu@108.136.53.121
+ DEBUG [48a2e9e6] Command: cd /home/ubuntu/apps/react-capistrano/releases/20220721060334 && ( export NODE_VERSION="v14.20.0" ; /usr/bin/env echo "fd76e4e897cfeb391eefb1a236e82fc74ee780b3" > REVISION )
+  INFO [48a2e9e6] Finished in 0.071 seconds with exit status 0 (successful).
+ DEBUG [69e6ae5d] Running if test ! -d /home/ubuntu/apps/react-capistrano/releases/20220721060334; then echo "Directory does not exist '/home/ubuntu/apps/react-capistrano/releases/20220721060334'" 1>&2; false; fi as ubuntu@108.136.53.121
+ DEBUG [69e6ae5d] Command: if test ! -d /home/ubuntu/apps/react-capistrano/releases/20220721060334; then echo "Directory does not exist '/home/ubuntu/apps/react-capistrano/releases/20220721060334'" 1>&2; false; fi
+ DEBUG [69e6ae5d] Finished in 0.028 seconds with exit status 0 (successful).
+  INFO [82140bb2] Running /tmp/react-capistrano/nvm-exec.sh yarn install --silent --no-progress as ubuntu@108.136.53.121
+ DEBUG [82140bb2] Command: cd /home/ubuntu/apps/react-capistrano/releases/20220721060334 && ( export NODE_VERSION="v14.20.0" ; /tmp/react-capistrano/nvm-exec.sh yarn install --silent --no-progress )
+ DEBUG [82140bb2] 	manpath: 
+ DEBUG [82140bb2] 	can't set the locale; make sure $LC_* and $LANG are correct
+ DEBUG [82140bb2] 	
+ DEBUG [82140bb2] 	manpath: 
+ DEBUG [82140bb2] 	can't set the locale; make sure $LC_* and $LANG are correct
+ DEBUG [82140bb2] 	
+ DEBUG [82140bb2] 	Now using node v14.20.0 (npm v6.14.17)
+ DEBUG [82140bb2] 	warning @testing-library/jest-dom > css > source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
+ DEBUG [82140bb2] 	warning react-scripts > @svgr/webpack > @svgr/plugin-svgo > svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+ DEBUG [82140bb2] 	warning react-scripts > @svgr/webpack > @svgr/plugin-svgo > svgo > stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+ DEBUG [82140bb2] 	warning react-scripts > css-minimizer-webpack-plugin > cssnano > cssnano-preset-default > postcss-svgo > svgo > stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
