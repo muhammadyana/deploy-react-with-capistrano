@@ -783,3 +783,49 @@
  DEBUG [e11c3668] 	yarn run v1.22.19
  DEBUG [e11c3668] 	$ react-scripts build
  DEBUG [e11c3668] 	Creating an optimized production build...
+ DEBUG [e11c3668] 	Compiled successfully.
+
+ DEBUG [e11c3668] 	File sizes after gzip:
+
+ DEBUG [e11c3668] 	  281.94 kB  build/static/js/main.aec9d96a.js
+
+ DEBUG [e11c3668] 	The project was built assuming it is hosted at /.
+ DEBUG [e11c3668] 	You can control this with the homepage field in your package.json.
+ DEBUG [e11c3668] 	
+ DEBUG [e11c3668] 	The build folder is ready to be deployed.
+ DEBUG [e11c3668] 	You may serve it with a static server:
+ DEBUG [e11c3668] 	
+ DEBUG [e11c3668] 	  yarn global add serve
+ DEBUG [e11c3668] 	  serve -s build
+ DEBUG [e11c3668] 	
+ DEBUG [e11c3668] 	Find out more about deployment here:
+ DEBUG [e11c3668] 	
+ DEBUG [e11c3668] 	  https://cra.link/deployment
+ DEBUG [e11c3668] 	
+ DEBUG [e11c3668] 	Done in 49.85s.
+  INFO [e11c3668] Finished in 50.753 seconds with exit status 0 (successful).
+  INFO [f7041442] Running /usr/bin/env ln -s /home/ubuntu/apps/react-capistrano/releases/20220721060334 /home/ubuntu/apps/react-capistrano/releases/current as ubuntu@108.136.53.121
+ DEBUG [f7041442] Command: ( export NODE_VERSION="v14.20.0" ; /usr/bin/env ln -s /home/ubuntu/apps/react-capistrano/releases/20220721060334 /home/ubuntu/apps/react-capistrano/releases/current )
+  INFO [f7041442] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [fdce5f16] Running /usr/bin/env mv /home/ubuntu/apps/react-capistrano/releases/current /home/ubuntu/apps/react-capistrano as ubuntu@108.136.53.121
+ DEBUG [fdce5f16] Command: ( export NODE_VERSION="v14.20.0" ; /usr/bin/env mv /home/ubuntu/apps/react-capistrano/releases/current /home/ubuntu/apps/react-capistrano )
+  INFO [fdce5f16] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [d10b0d81] Running /usr/bin/env ls -x /home/ubuntu/apps/react-capistrano/releases as ubuntu@108.136.53.121
+ DEBUG [d10b0d81] Command: ( export NODE_VERSION="v14.20.0" ; /usr/bin/env ls -x /home/ubuntu/apps/react-capistrano/releases )
+ DEBUG [d10b0d81] 	20220721041708	20220721053706	20220721053945	20220721054208	20220721060334
+ DEBUG [d10b0d81] Finished in 0.030 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 5 deployed releases on 108.136.53.121
+ DEBUG [4b10ab00] Running [ -d /home/ubuntu/apps/react-capistrano/current ] as ubuntu@108.136.53.121
+ DEBUG [4b10ab00] Command: [ -d /home/ubuntu/apps/react-capistrano/current ]
+ DEBUG [4b10ab00] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [38f1186c] Running /usr/bin/env readlink /home/ubuntu/apps/react-capistrano/current as ubuntu@108.136.53.121
+ DEBUG [38f1186c] Command: ( export NODE_VERSION="v14.20.0" ; /usr/bin/env readlink /home/ubuntu/apps/react-capistrano/current )
+ DEBUG [38f1186c] 	/home/ubuntu/apps/react-capistrano/releases/20220721060334
+ DEBUG [38f1186c] Finished in 0.028 seconds with exit status 0 (successful).
+  INFO No old releases (keeping newest 5) on 108.136.53.121
+ DEBUG [bb4fab60] Running if test ! -d /home/ubuntu/apps/react-capistrano/releases; then echo "Directory does not exist '/home/ubuntu/apps/react-capistrano/releases'" 1>&2; false; fi as ubuntu@108.136.53.121
+ DEBUG [bb4fab60] Command: if test ! -d /home/ubuntu/apps/react-capistrano/releases; then echo "Directory does not exist '/home/ubuntu/apps/react-capistrano/releases'" 1>&2; false; fi
+ DEBUG [bb4fab60] Finished in 0.244 seconds with exit status 0 (successful).
+  INFO [383b45b1] Running /usr/bin/env echo "Branch main (at fd76e4e897cfeb391eefb1a236e82fc74ee780b3) deployed as release 20220721060334 by yana" >> /home/ubuntu/apps/react-capistrano/revisions.log as ubuntu@108.136.53.121
+ DEBUG [383b45b1] Command: cd /home/ubuntu/apps/react-capistrano/releases && ( export NODE_VERSION="v14.20.0" ; /usr/bin/env echo "Branch main (at fd76e4e897cfeb391eefb1a236e82fc74ee780b3) deployed as release 20220721060334 by yana" >> /home/ubuntu/apps/react-capistrano/revisions.log )
+  INFO [383b45b1] Finished in 0.033 seconds with exit status 0 (successful).
