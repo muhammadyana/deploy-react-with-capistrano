@@ -5,6 +5,7 @@ ruby '3.0.1'
 
 group :development do
   # Use Capistrano for deployment
+  gem 'capistrano-bundler',       require: false
   gem 'capistrano',               require: false
   gem 'capistrano-yarn'
   gem 'capistrano-nvm'
